@@ -7,7 +7,7 @@ import static java.util.Collections.sort;
 public class NumberExercise {
     static List<Integer> numbers = new ArrayList<>();
 
-    public static void importData() {
+    public void importData() {
         Scanner sc = new Scanner(System.in);
         System.out.println("nhập số lượng phần tử");
         int n = sc.nextInt();
