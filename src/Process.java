@@ -18,7 +18,7 @@ public class Process {
             choose = sc.nextInt();
             switch (choose) {
                 case 1:
-                    NumberExercise.importData();
+                   num.importData();
                     break;
                 case 2:
                     num.prinData();
